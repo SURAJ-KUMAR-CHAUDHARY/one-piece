@@ -1,0 +1,51 @@
+@font-face {
+    font-family: luffy;
+    src: url(./one-piece-font.ttf);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    height:100%;
+    width:100%;
+    background-image:url(https://wallpaperaccess.com/full/4030050.jpg);
+    background-size:cover;
+    background-size:contain;
+    background-repeat:no-repeat;
+    text-align:right;
+}
+#ok{
+    color:rgb(249, 11, 11);
+    padding-right:30px;
+     padding-top:100px;
+     font-family:luffy;
+     font-size:40px;
+}
+#ko{
+    color:rgb(249, 11, 11);
+    padding-right:25px;
+        font-family:luffy;  
+        font-size:40px;
+}
+button{
+    padding:20px 40px;
+    margin-right:160px;
+    background-color:rgb(235, 23, 23);
+    border:none;
+    font-size:25px;
+    color:white;
+    font-family:luffy;
+    font-weight:700;
+}
+button:hover{
+    background-color:rgb(47, 242, 77);
+    color:rgb(16, 3, 3);
+      transform:scale(1.1);
+    transition:0.3s;
+}
